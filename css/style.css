@@ -1,0 +1,248 @@
+/* GERAL */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #141518;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ff931e;
+}
+
+/* NAVEGAÇÃO */
+
+.login {
+    margin-bottom:5px;
+}
+
+.dropdown-menu {
+    width: 300px !important;
+}
+
+nav .container {
+    background-color: #ff931e;
+    padding: 15px 30px;
+    box-shadow: 0px 0px 40px #000000;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* BOTÕES */
+
+.btn-primary {
+    color: white;
+    background-color: #141518;
+    width: 242px;
+    border: none;
+    border-radius: 40px;
+}
+
+.btn-primary:hover {
+    color: #141518;
+    background-color: white;
+    width: 242px;
+    border: none;
+    border-radius: 40px;
+}
+
+.btn-secondary {
+    color: #141518;
+    background-color: #ff931e;
+    width: 242px;
+    border: none;
+    border-radius: 40px;
+}
+
+.btn-secondary:hover {
+    color: #141518;
+    background-color: white;
+    width: 242px;
+    border: none;
+    border-radius: 40px;
+}
+
+.btn-light {
+    color: #141518;
+    background-color: #ff931e;
+    width: 390px;
+    border: none;
+    border-radius: 40px;
+}
+
+.btn-light:hover {
+    color: #141518;
+    background-color: white;
+    width: 390px;
+    border: none;
+    border-radius: 40px;
+}
+
+.btn-info {
+    color: white;
+    background-color:unset;
+    width: 242px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+.btn-info:hover {
+    color: #141518;
+    background-color: white;
+    width: 242px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+/* DIVS */
+
+.main-box {
+    color: white;
+    padding: 100px 120px;
+    text-align: center;
+    box-shadow: 0px 0px 40px #000000;
+}
+
+.container {
+    max-width: 1024px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* TEXTOS */
+
+.welcome-text {
+    margin: 0;
+}
+
+.index-title {
+    margin-bottom: 80px;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+}
+
+.index-text {
+    font-size: 1.8rem;
+    margin-bottom: 80px;
+    font-weight: 300;
+}
+
+.home-title {
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+}
+
+.home-text {
+    font-size: 1.8rem;
+    margin-bottom: 80px;
+    font-weight: 300;
+}
+
+/* CARDS */
+
+.cards-home {
+    width: 100%;
+}
+
+.cards-home:hover {
+    width: 100%;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+/* FORM */
+
+.vinyl-form {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 55%;
+}
+
+.add-form {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* FOOTER */
+
+.vinyl-footer {
+    max-width: 1024px;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    background-color: #ff931e;
+    box-shadow: 0px 0px 40px #000000;
+}
+
+/* RESPOSIVIDADE */
+
+@media (max-width: 768px) {
+
+    .cards-home {
+        padding: 20px;
+        width: 100%;
+    }
+    .main-box {
+        color: white;
+        padding: 100px 40px;
+        text-align: center;
+        box-shadow: 0px 0px 40px #000000;
+    }
+
+    nav .container {
+        background-color: #ff931e;
+        padding: 5px 10px;
+        box-shadow: 0px 0px 40px #000000;
+    }
+
+    .navbar-brand img {
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 180px;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+        color: white;
+        background-color: #141518;
+        width: 140px;
+        border: none;
+        border-radius: 40px;
+    }
+    
+    .btn-primary:hover {
+        font-size: 14px;
+        color: #141518;
+        background-color: white;
+        width: 140px;
+        border: none;
+        border-radius: 40px;
+    }
+
+    .vinyl-form {
+        margin: 0 auto;
+        padding: 20px 0;
+        width: 80%;
+    }
+}

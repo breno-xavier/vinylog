@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Customized CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+    </style>
+
+    <title>Vinylog - Catalogue seus vinis</title>
+
+</head>
+
+<body>
+
+    <head>
+        <!-- Início NavBar -->
+
+        <section role="navigation">
+            <nav class="navbar navbar-light">
+                <div class="container border-bottom border-3">
+                    <a href="#" class="navbar-brand">
+                        <img src="img/logo-vinylog.svg" width="300">
+                    </a>
+                    <p class="welcome-text">
+                        Bem-vindo(a), <strong>Fulano.</strong>
+                    </p>
+                </div>
+            </nav>
+        </section>
+
+    </head> <!-- /Fim NavBar -->
+
+    <section>
+        <div class="container">
+            <div class="main-box">
+
+                <h1 class="home-title">CADASTRE UM NOVO DISCO</h1>
+
+                <form class="add-form row g-2 needs-validation" novalidate>
+                    <div class="col-md-12" style="margin: 0;">
+                        <label for="validationCustom01" class="form-label"></label>
+                        <input type="text" class="form-control" id="validationCustom01" value="Nome do artista ou banda"
+                            required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="margin: 0;">
+                        <label for="validationCustom01" class="form-label"></label>
+                        <input type="text" class="form-control" id="validationCustom01" value="Nome do disco" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="margin: 0;">
+                        <label for="validationCustom01" class="form-label"></label>
+                        <input type="text" class="form-control" id="validationCustom01" value="País de origem" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="margin: 0;">
+                        <label for="validationCustom03" class="form-label"></label>
+                        <input type="text" class="form-control" id="validationCustom03" value="Ano de lançamento"
+                            required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="margin: 0;">
+                        <label for="validationCustom01" class="form-label"></label>
+                        <input type="text" class="form-control" id="validationCustom01" value="Selo ou Gravadora"
+                            required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="margin: 0;">
+                        <label for="validationCustom03" class="form-label"></label>
+                        <input type="text" class="form-control" id="validationCustom03" value="Cor do vinil" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div>
+                        <label for="formFile" class="form-label mb-0">*adicionar imagem da capa (tamanho máximo 500px X
+                            500px)</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                    <div class="col-5">
+                        <p class="text-start mt-2 mb-0">Tamanho do vinil:</p>
+                        <div class="col-1">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label text-start" for="invalidCheck">
+                                    12"
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label text-start" for="invalidCheck">
+                                    10"
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label text-start" for="invalidCheck">
+                                    7"
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <p class="text-start mt-2 mb-0">Vinil:</p>
+                        <div class="col-1">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label text-start" for="invalidCheck">
+                                    Simples
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label text-start" for="invalidCheck">
+                                    Duplo
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label text-start" for="invalidCheck">
+                                    Picture
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <p class="text-start mt-2 mb-0">Capa:</p>
+                        <div class="col-1">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label text-start" for="invalidCheck">
+                                    Simples
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label text-start" for="invalidCheck">
+                                    Gatefold
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-secondary mt-4" type="submit">ADICIONAR DISCO</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="vinyl-footer border-top border-3">
+
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function () {
+                'use strict'
+
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.querySelectorAll('.needs-validation')
+
+                // Loop over them and prevent submission
+                Array.prototype.slice.call(forms)
+                    .forEach(function (form) {
+                        form.addEventListener('submit', function (event) {
+                            if (!form.checkValidity()) {
+                                event.preventDefault()
+                                event.stopPropagation()
+                            }
+
+                            form.classList.add('was-validated')
+                        }, false)
+                    })
+            })()
+
+        </script>
+</body>
+
+</html>
