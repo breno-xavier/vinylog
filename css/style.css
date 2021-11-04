@@ -1,5 +1,9 @@
 /* GERAL */
 
+html, body, .principal, .container, .main-box {
+    height: 100%;
+}
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
